@@ -105,7 +105,7 @@ class Copier(OfficeEq):
             return 'Атрибут c_speed не определен'
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     stock = Stock('сканер', 'HP')
     print(stock.receiving(4000, 10))
     print(stock.delivery('1-й отдел', 2))

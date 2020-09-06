@@ -1,6 +1,6 @@
 class OwnError(Exception):
-    def __init__(self, txt):
-        self.txt = txt
+    def __init__(self, text):
+        self.text = text
 
 
 num_input = []
