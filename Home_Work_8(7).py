@@ -21,7 +21,7 @@ class Calculation:
                f'{"i" if b != 0 else "0"}'
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     def input_num():
         try:
             z_1 = Calculation(input('Введите веществ. и мним. часть компл. числа z_1 через пробел: '))
